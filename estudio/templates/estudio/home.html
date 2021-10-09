@@ -1,0 +1,42 @@
+{% extends "estudio/base.html" %}
+
+{% load static %}
+
+  {% block content %}
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'estudio/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Conectividad</span>
+            <span class="section-heading-lower">Mejorar las relaciones entre estudiantes</span>
+          </h2>
+          <p class="mb-3">En nuestra aplicación web podrás crear y encontrar grupos de estudio como nunca antes lo habías imaginado.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Estudiantes comprometidos</span>
+                <span class="section-heading-lower">Descubre nuevos amigos</span>
+              </h2>
+              <p class="mb-0">Mientras estudias con ellos o agenda tutorías con monitores y/o profesores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% endblock %}
